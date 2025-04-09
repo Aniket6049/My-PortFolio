@@ -1,27 +1,28 @@
 import React from 'react'
 import Project from './Project'
+import website1 from '../../../../public/website-img-1.jpg'
 const projects = [
-    {
-        name: "Food-App",
-        year: "2025",
-        align:"right",
-        image:"../../../../public/website-img-1.jpg",
-        link:"https://food-app-henna-zeta.vercel.app/",
-    },
-    {
-        name: "Food-App",
-        year: "2025",
-        align:"left",
-        image:"../../../../public/website-img-2.webp",
-        link:"https://food-app-henna-zeta.vercel.app/",
-    },
-    {
-        name: "Food-App",
-        year: "2025",
-        align:"right",
-        image:"../../../../public/website-img-3.jpg",
-        link:"https://food-app-henna-zeta.vercel.app/",
-    }
+  {
+    name: "Food-App",
+    year: "2025",
+    align:"right",
+    image:"/website-img-1.jpg",
+    link:"https://food-app-henna-zeta.vercel.app/",
+},
+{
+    name: "Food-App",
+    year: "2025",
+    align:"left",
+    image:"/website-img-2.webp",
+    link:"https://food-app-henna-zeta.vercel.app/",
+},
+{
+    name: "Food-App",
+    year: "2025",
+    align:"right",
+    image:"/website-img-3.jpg",
+    link:"https://food-app-henna-zeta.vercel.app/",
+}
 ]
 const projectMain = () => {
   return (
